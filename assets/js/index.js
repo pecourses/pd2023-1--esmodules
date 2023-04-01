@@ -1,7 +1,8 @@
-let x = 0
+// ESModules
+// default import
+import _ from './math.js'
 
-console.log('x, y :>> ', x, y)
+console.log('_ :>> ', _)
 
-y = 5
-
-console.log('x,y :>> ', x, y)
+console.log('_.PI :>> ', _.PI)
+console.log('_.sum(1,10) :>> ', _.sum(1, 10))
