@@ -5,7 +5,11 @@ function sum (a, b) {
 
 const PI = 3.14
 
-// private -> public
-// default export
+function mult (a, b) {
+  return a * b
+}
 
-export default { sum, PI }
+// private -> public
+
+// default export
+export default { sum, PI, mult }
