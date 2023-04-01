@@ -1,3 +1,4 @@
-let y = 10
+import Math from './math.js'
 
-console.log('x,y :>> ', x, y)
+console.log('Math :>> ', Math)
+console.log('Math.PI :>> ', Math.PI)
